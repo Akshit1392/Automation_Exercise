@@ -2,23 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-15T14:09:14 IST" name="Default suite" finished-at="2025-04-15T14:09:24 IST" duration-ms="9200">
+  <suite started-at="2025-04-15T18:15:23 IST" name="Default suite" finished-at="2025-04-15T18:15:37 IST" duration-ms="14864">
     <groups>
     </groups>
-    <test started-at="2025-04-15T14:09:14 IST" name="Default test" finished-at="2025-04-15T14:09:24 IST" duration-ms="9200">
+    <test started-at="2025-04-15T18:15:23 IST" name="Default test" finished-at="2025-04-15T18:15:37 IST" duration-ms="14864">
       <class name="automation.tests.AutomationexerciseTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automation.tests.AutomationexerciseTest@41d477ed]" started-at="2025-04-15T14:09:15 IST" name="launchApplication" finished-at="2025-04-15T14:09:21 IST" duration-ms="6819" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automation.tests.AutomationexerciseTest@4802796d]" started-at="2025-04-15T18:15:23 IST" name="launchApplication" finished-at="2025-04-15T18:15:31 IST" duration-ms="8349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginflow()[pri:0, instance:automation.tests.AutomationexerciseTest@41d477ed]" started-at="2025-04-15T14:09:21 IST" name="loginflow" finished-at="2025-04-15T14:09:24 IST" duration-ms="2169" status="PASS">
+        <test-method signature="loginflow()[pri:0, instance:automation.tests.AutomationexerciseTest@4802796d]" started-at="2025-04-15T18:15:31 IST" name="loginflow" finished-at="2025-04-15T18:15:37 IST" duration-ms="6469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginflow -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.tests.AutomationexerciseTest@41d477ed]" started-at="2025-04-15T14:09:24 IST" name="closeBrowser" finished-at="2025-04-15T14:09:24 IST" duration-ms="164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
       </class> <!-- automation.tests.AutomationexerciseTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

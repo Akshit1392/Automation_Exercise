@@ -80,12 +80,12 @@ public class BaseTest {
 		return homepage;
 	}
 
-	@AfterMethod(alwaysRun = true)
-	public void closeBrowser() {
-		if (driver != null) {
-			driver.quit();
-		}
-	}
+//	@AfterMethod(alwaysRun = true)
+//	public void closeBrowser() {
+//		if (driver != null) {
+//			driver.quit();
+//		}
+//	}
 	
 	public List<HashMap<String, Integer>> getJasonDataToMap(String path) throws IOException {
 		//Read Json to String
