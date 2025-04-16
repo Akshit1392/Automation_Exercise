@@ -89,11 +89,9 @@ public class BaseTest {
 	
 	public List<HashMap<String, Integer>> getJasonDataToMap(String path) throws IOException {
 		//Read Json to String
-		String jsonContent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"//src//test//java//automation//data//OrderList.json"), StandardCharsets.UTF_8);
+		String jsonContent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"//src//test//java//automation//data//UserData.json"), StandardCharsets.UTF_8);
 		ObjectMapper mapper = new ObjectMapper();
 		List<HashMap<String, Integer>> data = mapper.readValue(jsonContent, new TypeReference<List<HashMap<String, Integer>>>(){});
-
 		return data;
 	}
-
 }

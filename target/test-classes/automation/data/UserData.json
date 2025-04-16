@@ -1,0 +1,16 @@
+[
+  {
+	"title": "Mr",
+    "name": "TestUser1",
+    "email": "testuser1@example.com",
+    "password": "Password@123",
+    "firstName": "Soft",
+    "lastName": "Prodigy",
+    "company": "Softprodigy Ltd",
+    "country": "India",
+    "state": "Himachal",
+    "city": "Shimla",
+    "zipcode": "171001",
+    "mobile": "9876543210"
+  }
+]
